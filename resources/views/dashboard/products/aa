@@ -1,0 +1,8 @@
+<div class="form-group">
+    <label for="image" class='list-lang' ar='اختر الصور' en='choose photos'> </label>
+    <input type="file" class="form-control" name='Allimages'  accept=".jpg,.jpeg,.png"  max="10000"> 
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary list-lang" ar='إلغاء' en='cancel' data-dismiss="modal"></button>
+    <button type="button" class="btn btn-primary list-lang" onclick="$('#uploadImages').submit()" ar='رفع الصور' en='upload images'> </button>
+</div>
